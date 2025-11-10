@@ -55,7 +55,7 @@ document.getElementById("joinBtn").addEventListener("click", () => {
   }
 
   // connect to backend
-  socket = new WebSocket("ws://f3625949f118.ngrok-free.app");
+  socket = new WebSocket("wss://f3625949f118.ngrok-free.app");
 
   socket.onopen = () => {
     console.log("✅ Connected to chat server");
