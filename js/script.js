@@ -55,7 +55,7 @@ document.getElementById("joinBtn").addEventListener("click", () => {
   }
 
   // connect to backend
-  socket = new WebSocket("wss://10.94.74.64:5000");
+  socket = new WebSocket("ws://10.94.74.64:5000");
 
   socket.onopen = () => {
     console.log("✅ Connected to chat server");
